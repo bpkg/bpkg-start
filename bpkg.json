@@ -1,0 +1,10 @@
+{
+  "name": "bpkg-start",
+  "version": "0.1.0",
+  "repo": "bpkg/bpkg-start",
+  "description": "A bpkg command plugin that invokes a 'start' command with 'pre' and 'post' lifecycles.",
+  "license": "MIT",
+  "global": "1",
+  "install": "install -b bpkg-start.sh ${PREFIX:-/usr/local}/bin/bpkg-start",
+  "scripts": [ "bpkg-start.sh" ]
+}
