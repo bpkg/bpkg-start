@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: bpkg/setup-bpkg-action
+      - uses: bpkg/setup-bpkg-action@v1
       - env:
           PIPELINECOMPONENTS_GLOBASSIST: true
         uses: pipeline-components/shellcheck@v0.10.0
