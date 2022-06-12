@@ -22,3 +22,4 @@ jobs:
           options: --format=gcc --external-sources
       - name: Run Tests
         run: |
+          bpkg run test
