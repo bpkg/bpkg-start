@@ -6,5 +6,9 @@
   "license": "MIT",
   "global": "1",
   "install": "install -b bpkg-start.sh ${PREFIX:-/usr/local}/bin/bpkg-start",
-  "scripts": [ "bpkg-start.sh" ]
+  "scripts": [ "bpkg-start.sh" ],
+  "commands": {
+    "lint": "command shellcheck bpkg-start.sh",
+    "test": "cd test && ../bpkg-start.sh | grep okokok > /dev/null"
+  }
 }

@@ -1,0 +1,8 @@
+{
+  "name": "bpkg-start-test",
+  "commands": {
+    "prestart": "echo -n ok",
+    "start": "echo -n ok",
+    "poststart": "echo ok"
+  }
+}
